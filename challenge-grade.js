@@ -18,6 +18,6 @@ function inputGrade(mark){
         }
     }
 }
-const mark = Number(prompt(Enter the student mark:));
+const mark = Number(prompt("Enter the student mark: "));
 const grade = inputGrade(mark);
 console.log(`The student's grade is: ${grade}`);
